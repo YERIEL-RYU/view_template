@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R_CDM CDM WEB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../command/css/logo.css">
+  <link rel="stylesheet" href="../command/css/content-card.css">
+</head>
+<style>
+  body {
+    margin: 0;
+  }
+  @keyframes bar-move { 
+    0% {
+    background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .top-bar {
+    background: #a0aecd;
+    background: linear-gradient(42deg, #a0aecd 0%, #d9deeb 70%, #a0aecd 100%);
+    height: 10px;
+    background-size: 200% 200%;
+    animation: bar-move 7s linear infinite;
+  }
+  .top-title {
+    background-color: #1A2238;
+  }
+  .top-title div {
+    font-size: 30px;
+    font-weight: 800;
+    color: #A0AECD;
+    padding: 15px 30px;
+  }
+  .container {
+    margin: 30px auto;
+    border: 1px solid #006888;
+    padding: 20px;
+    min-height: 500px;
+    border-radius: 4px;
+    max-width: 1350px;
+    background-color: white;
+  }
+  .content-container {
+    margin: 30px auto;
+    border: 1px solid #006888;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 1350px;
+    background-color: white;
+  }
+  .content-logo-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo-container {
+    display: flex;
+    padding: 15px 10px;
+    justify-content: left;
+  }
+  .logo {
+    align-self: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: #2c3e50;
+  }
+  .logo-item-wrap {
+    font-size: small;
+    padding-left: 7px;
+    margin-left: 5px;
+    border-left: 1px solid gray;
+    color: gray;
+    letter-spacing: 4px;
+  }
+  .logo-item {
+    padding: 1px;
+    display: flex;
+  }
+  .first-letter {
+    color: #666666;
+    font-weight: bold;
+  }
+  .ohdsi {
+    height: 70px;
+    width: 300px;
+    background-image: url(https://www.ohdsi.org/wp-content/uploads/2015/02/h243-ohdsi-logo-with-text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }           
+</style>
+<body>
+  <div class="top-bar"></div>
+  <div class="top-title">
+    <div>R_CDM CDM WEB</div>
+  </div>
+  <div class="container">
+    <div>CDM Server URL</div>
+    <ul>
+      <li>https://cdmenv.wonrcdm.org/</li>
+      <li>https://cdmenv.wonrcdm.org/cdm/</li>
+      <li>https://cdmenv.wonrcdm.org/cdm/rcdm</li>
+      <li>https://cdmenv.wonrcdm.org/cdm/list</li>
+    </ul>
+  </div>
+  <div class="content-container">
+    <h1>Radiology CDM & Wonkwang University Host Hospital</h1>
+    <div>
+      <ul>
+        <li>설명</li>
+        <li>설명</li>
+        <li>설명</li>
+        <li>설명</li>
+        <li>설명</li>
+      </ul>
+    </div>
+    <div class="content-logo-wrap">
+      <div class="logo-container">
+        <div class="logo">R_CDM</div>
+        <div class="logo-item-wrap">
+          <div class="logo-item"><div class="first-letter">R</div>adiology</div>
+          <div class="logo-item"><div class="first-letter">C</div>ommon</div>
+          <div class="logo-item"><div class="first-letter">D</div>ata</div>
+          <div class="logo-item"><div class="first-letter">M</div>odel</div>
+        </div>
+      </div>  
+      <div class="ohdsi"></div>
+    </div>
+  </div>
+</body>
+</html>
